@@ -9,5 +9,15 @@ This repository contains instructional materials and example programs used durin
 
 These materials were designed to help beginner programmers understand not just the "how" but also the "why" behind C's arithmetic behavior, with plenty of examples showing common mistakes and how to avoid them.
 
+## Skills Demonstrated
+Teaching Assistant experience in Introductory C Programming
+Mentoring and supporting beginner-level computer science students
+C programming fundamentals (arithmetic operators, type casting, operator precedence)
+Explaining the difference between integer and floating-point division
+Debugging common arithmetic pitfalls and type conversion issues
+Code quality best practices (readability, explicit casting, proper use of parentheses)
+Technical communication and instructional design for programming labs
+Academic leadership, classroom facilitation, and student support
+
 
 
