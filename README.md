@@ -26,8 +26,7 @@ During Lab 2, I guided students through the following core concepts:
 - How each operator works with different data types
 - Understanding the modulus operator and when to use it
 
-## 2. Integer Division vs Float Division in C
-
+### 2. Integer Division vs Float Division in C
 In C, the **type of the operands** determines how division is performed.
 
 ### How C Handles Division
@@ -42,8 +41,7 @@ Both `7` and `3` are integers, so C uses **integer division**, which **truncates
 - int / float → float division
 - float / float → float division
 
-## 3. Type Casting
-
+### 3. Type Casting
 **Type casting** is the process of converting a value from one data type to another.  
 It matters because data types affect how expressions are evaluated, how much memory is used, and whether precision is preserved or lost.
 
@@ -69,8 +67,7 @@ This gives you control over how values are converted and helps avoid unintended 
 - **int to double**  
   Used when higher precision is needed in calculations.
 
-4. ASCII Values
-
+### 4. ASCII Values
 - What ASCII stands for (American Standard Code for Information Interchange)
 - How characters are represented as numeric codes
 - Casting characters to integers to see their ASCII values
