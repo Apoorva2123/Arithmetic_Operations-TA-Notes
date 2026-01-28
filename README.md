@@ -26,6 +26,15 @@ During Lab 2, I guided students through the following core concepts:
 - How each operator works with different data types
 - Understanding the modulus operator and when to use it
 
+## 2. Integer Division vs Float Division
+- How C handles division differently based on operand types
+- Why 7 / 3 gives 2 instead of 2.333...
+- When division keeps decimals vs when it truncates
+Examples of:
 
+- int / int → integer division
+- float / int → float division
+- int / float → float division
+- float / float → float division
 
 
