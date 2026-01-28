@@ -72,8 +72,7 @@ This gives you control over how values are converted and helps avoid unintended 
 - How characters are represented as numeric codes
 - Casting characters to integers to see their ASCII values
 
-5. Modulus Operator (%)
-
+### 5. Modulus Operator (%)
 - Understanding that % gives the remainder, not the quotient
 - Only works with integers
 - Behavior with negative numbers (result takes sign of numerator)
