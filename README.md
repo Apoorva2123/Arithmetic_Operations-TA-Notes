@@ -27,10 +27,16 @@ During Lab 2, I guided students through the following core concepts:
 - Understanding the modulus operator and when to use it
 
 ## 2. Integer Division vs Float Division
-- How C handles division differently based on operand types
-- Why 7 / 3 gives 2 instead of 2.333...
-- When division keeps decimals vs when it truncates
-- Examples of:
+## 2. Integer Division vs Float Division in C
+
+In C, the **type of the operands** determines how division is performed.
+
+### How C Handles Division
+- If **both operands are integers**, C performs **integer division**.
+- If **at least one operand is a float**, C performs **floating-point division**.
+
+### Why `7 / 3` Gives `2` Instead of `2.333`
+Both `7` and `3` are integers, so C uses **integer division**, which **truncates** the decimal part.
 
 -- int / int → integer division
 -- float / int → float division
