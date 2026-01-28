@@ -30,11 +30,11 @@ During Lab 2, I guided students through the following core concepts:
 - How C handles division differently based on operand types
 - Why 7 / 3 gives 2 instead of 2.333...
 - When division keeps decimals vs when it truncates
-Examples of:
+- Examples of:
 
-- int / int → integer division
-- float / int → float division
-- int / float → float division
-- float / float → float division
+-- int / int → integer division
+-- float / int → float division
+-- int / float → float division
+-- float / float → float division
 
 
