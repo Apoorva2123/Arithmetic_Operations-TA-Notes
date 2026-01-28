@@ -38,9 +38,9 @@ In C, the **type of the operands** determines how division is performed.
 ### Why `7 / 3` Gives `2` Instead of `2.333`
 Both `7` and `3` are integers, so C uses **integer division**, which **truncates** the decimal part.
 
--- int / int → integer division
--- float / int → float division
--- int / float → float division
--- float / float → float division
+- int / int → integer division
+- float / int → float division
+- int / float → float division
+- float / float → float division
 
 
