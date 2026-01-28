@@ -26,7 +26,6 @@ During Lab 2, I guided students through the following core concepts:
 - How each operator works with different data types
 - Understanding the modulus operator and when to use it
 
-## 2. Integer Division vs Float Division
 ## 2. Integer Division vs Float Division in C
 
 In C, the **type of the operands** determines how division is performed.
