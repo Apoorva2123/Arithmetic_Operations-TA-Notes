@@ -22,6 +22,9 @@ These materials were designed to help beginner programmers understand not just t
 ## What I Taught in Lab Sessions
 During Lab 2, I guided students through the following core concepts:
 ### 1. Arithmetic Operators in C
+- Basic operators: +, -, *, /, %
+- How each operator works with different data types
+- Understanding the modulus operator and when to use it
 
 
 
