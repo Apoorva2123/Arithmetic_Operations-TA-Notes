@@ -78,6 +78,15 @@ This gives you control over how values are converted and helps avoid unintended 
 - Behavior with negative numbers (result takes sign of numerator)
 - Common confusion between % and /
 
+### 6. Operator Precedence and Brackets
+- C's order of operations: () > * / % > + -
+- Why brackets are crucial for correct results
+- How to avoid common precedence mistakes
+- Examples showing the difference between:
+
+2 + 3 * 4 → 14
+(2 + 3) * 4 → 20
+
 
 
 
