@@ -79,13 +79,21 @@ This gives you control over how values are converted and helps avoid unintended 
 - Common confusion between % and /
 
 ### 6. Operator Precedence and Brackets
-- C's order of operations: () > * / % > + -
-- Why brackets are crucial for correct results
-- How to avoid common precedence mistakes
-- Examples showing the difference between:
+- C follows a specific **order of operations** when evaluating expressions:  
+  `()` → `* / %` → `+ -`
+- **Brackets (parentheses)** are crucial because they allow you to explicitly control the order in which operations are performed.
+- Without brackets, C follows precedence rules, which can lead to **unexpected results** if you assume left-to-right evaluation.
+- To avoid common precedence mistakes:
+  - Do not rely on memorizing precedence rules
+  - Use brackets to make your intent clear and your code more readable
+### Examples
+- `2 + 3 * 4 → 14`  
+  Multiplication happens before addition.
 
-2 + 3 * 4 → 14
-(2 + 3) * 4 → 20
+- `(2 + 3) * 4 → 20`  
+  Brackets force addition to happen first.
+
+
 
 
 
