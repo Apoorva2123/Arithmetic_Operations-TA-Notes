@@ -70,6 +70,12 @@ This gives you control over how values are converted and helps avoid unintended 
 - **int to double**  
   Used when higher precision is needed in calculations.
 
+4. ASCII Values
+
+- What ASCII stands for (American Standard Code for Information Interchange)
+- How characters are represented as numeric codes
+- Casting characters to integers to see their ASCII values
+
 
 
 
