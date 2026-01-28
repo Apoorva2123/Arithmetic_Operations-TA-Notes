@@ -43,4 +43,34 @@ Both `7` and `3` are integers, so C uses **integer division**, which **truncates
 - int / float → float division
 - float / float → float division
 
+## 3. Type Casting
+
+**Type casting** is the process of converting a value from one data type to another.  
+It matters because data types affect how expressions are evaluated, how much memory is used, and whether precision is preserved or lost.
+
+### Implicit Casting
+Implicit casting occurs when **C automatically converts one data type to another** during an operation.  
+This usually happens when different data types are used in the same expression, and C converts the smaller or less precise type to a larger one.
+
+### Explicit Casting
+Explicit casting is when the programmer **manually converts a data type** using the `(type)` syntax.  
+This gives you control over how values are converted and helps avoid unintended results.
+
+### Common Casting Scenarios
+
+- **int to float using `(float)`**  
+  Used to preserve decimal values in calculations involving integers.
+
+- **float to int using `(int)`**  
+  The decimal part is **truncated**, not rounded.
+
+- **char to int**  
+  Converts a character to its corresponding **ASCII value**.
+
+- **int to double**  
+  Used when higher precision is needed in calculations.
+
+
+
+
 
