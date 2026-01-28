@@ -19,5 +19,10 @@ These materials were designed to help beginner programmers understand not just t
 - Technical communication and instructional design for programming labs
 - Academic leadership, classroom facilitation, and student support
 
+## What I Taught in Lab Sessions
+During Lab 2, I guided students through the following core concepts:
+### 1. Arithmetic Operators in C
+
+
 
 
